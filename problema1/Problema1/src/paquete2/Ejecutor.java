@@ -1,7 +1,6 @@
 
 package paquete2;
 
-import com.sun.tools.javac.Main;
 import paquete1.Terreno;
 
 /**

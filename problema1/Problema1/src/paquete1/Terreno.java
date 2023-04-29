@@ -1,7 +1,6 @@
 
 package paquete1;
 
-import java.awt.geom.Area;
 
 /**
  *
