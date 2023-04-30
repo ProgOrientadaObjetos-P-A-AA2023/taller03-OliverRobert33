@@ -10,8 +10,8 @@ public class Ejecutor {
 
     public static void main(String[] args) {
 
+        // Objeto 1
         Instituciones institucion = new Instituciones();
-
         String nombre = "Unidad Educativa Fiscomisional 'San Juan Bautista'";
         String tipoInstitucion = "Fiscomisional";
         int numeroAlumnos = 4500;
@@ -25,7 +25,6 @@ public class Ejecutor {
         institucion.establecerNumeroDocentes(numeroDocentes);
         institucion.establecerNumeroSedes(numeroSedes);
         institucion.establecerGastosProyectadoEstudiante(gastosProyectadoEstudiante);
-
         institucion.calcularPresupuesto(numeroAlumnos, gastosProyectadoEstudiante);
 
         System.out.printf(""
@@ -42,6 +41,8 @@ public class Ejecutor {
                  institucion.obtenerNumeroSedes(),
                  institucion.obtenerPresupuesto());
 
+        
+        // Objeto 2
         Instituciones institucion2 = new Instituciones();
         String nombre2 = "Bilingue";
         String tipoInstitucion2 = "Particular";

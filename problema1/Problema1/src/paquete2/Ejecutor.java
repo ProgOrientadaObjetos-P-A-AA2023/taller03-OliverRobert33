@@ -11,12 +11,12 @@ public class Ejecutor {
 
     public static void main(String[] args) {
 
+        // Objeto 1
+        Terreno terreno = new Terreno();
         double ancho = 50.5;
         double largo = 100.5;
         double valorMetroCuadrado = 150.5;
-
-        // Creacion del 1 objeto 
-        Terreno terreno = new Terreno();
+        
         terreno.establecerAncho(ancho);
         terreno.establecerLargo(largo);
         terreno.establecerValorMetroCuadrado(valorMetroCuadrado);
@@ -36,7 +36,7 @@ public class Ejecutor {
                 terreno.obtenerValorMetroCuadrado(),
                 terreno.obtenerCostoTerreno());
 
-        // Creacion del 2 objeto
+        // Objeto 2
         Terreno terreno2 = new Terreno();
         double ancho2 = 60.5;
         double largo2 = 120.5;

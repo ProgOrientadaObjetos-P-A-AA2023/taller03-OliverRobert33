@@ -8,9 +8,9 @@ import paquete2.DispositivosMoviles;
 public class Ejecutor {
 
     public static void main(String[] args) {
-        // Objetos
+        
+        // Objeto 1
         DispositivosMoviles celular = new DispositivosMoviles();
-
         String sistemaOperativo = "iOS";
         double tamanoPantalla = 6.5;
         double costoInicial = 909;
@@ -24,7 +24,6 @@ public class Ejecutor {
         celular.establecerIvaPorcentaje(ivaPorcentaje);
         celular.establecerDireccionMac(direccionMac);
         celular.establecerInformacionIMEI(informacionIMEI);
-
         celular.calcularIvaCostoFinal(ivaPorcentaje, costoInicial);
         celular.calcularCostoFinal(costoInicial);
 
@@ -47,8 +46,8 @@ public class Ejecutor {
                  celular.obtenerIvaCostoFinal(),
                  celular.obtenerCostoFinal());
         
+        // Objeto 2
         DispositivosMoviles celular2 = new DispositivosMoviles();
-
         String sistemaOperativo2 = "Redmi";
         double tamanoPantalla2 = 5.5;
         double costoInicial2 = 500;

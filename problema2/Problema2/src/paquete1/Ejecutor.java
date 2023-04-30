@@ -12,9 +12,8 @@ public class Ejecutor {
     public static void main(String[] args) {
 //        Scanner entrada = new Scanner(System.in);
 
-        // Creacion del 1 objeto
+        // Objeto 1
         EquivalenteHora hora = new EquivalenteHora();
-
         int horaIngresada = 50;
 //        System.out.println("Ingrese la hora: ");
 //        horaIngresada = entrada.nextInt();
@@ -34,7 +33,7 @@ public class Ejecutor {
                  hora.obtenerSegundos(),
                  hora.obtenerDias());
 
-        // Creacion del 2 objeto
+        // Objeto 2
         EquivalenteHora hora2 = new EquivalenteHora();
         int horaIngresada2 = 100;
 
