@@ -2,7 +2,7 @@ package paquete2;
 
 /**
  *
- * @author oliver
+ * @author Oliver Saraguro
  */
 public class EquivalenteHora {
 

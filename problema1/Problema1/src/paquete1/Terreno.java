@@ -12,8 +12,6 @@ public class Terreno {
     private double ancho;
     private double largo;
     private double valorMetroCuadrado;
-    
-    // atributos del 2 objeto
     private double area;
     private double costoTerreno;
 

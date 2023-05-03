@@ -43,8 +43,8 @@ public class Ejecutor {
                 celular.obtenerIvaPorcentaje(),
                 celular.obtenerDireccionMac(),
                 celular.obtenerInformacionIMEI(),
-                 celular.obtenerIvaCostoFinal(),
-                 celular.obtenerCostoFinal());
+                celular.obtenerIvaCostoFinal(),
+                celular.obtenerCostoFinal());
         
         // Objeto 2
         DispositivosMoviles celular2 = new DispositivosMoviles();
@@ -81,8 +81,8 @@ public class Ejecutor {
                 celular2.obtenerIvaPorcentaje(),
                 celular2.obtenerDireccionMac(),
                 celular2.obtenerInformacionIMEI(),
-                 celular2.obtenerIvaCostoFinal(),
-                 celular2.obtenerCostoFinal());
+                celular2.obtenerIvaCostoFinal(),
+                celular2.obtenerCostoFinal());
 
     }
 
